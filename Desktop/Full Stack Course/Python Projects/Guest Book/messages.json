@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "firstName": "Steven",
+    "lastName": "Rotherham",
+    "message": "Added to guestbook"
+  },
+  {
+    "firstName": "Steven",
+    "lastName": "Rotherham",
+    "message": "Does this work?"
+  }
+]

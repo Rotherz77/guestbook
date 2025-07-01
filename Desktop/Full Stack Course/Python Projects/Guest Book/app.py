@@ -1,12 +1,14 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import json
 import os
 
 app = Flask(__name__)
 
+
 @app.route('/')
-def hello():
-    return '<h1>The backend is working!</h1>'
+def index():
+    return render_template('index.html')
+
 
 DATA_FILE = "messages.json"
 
